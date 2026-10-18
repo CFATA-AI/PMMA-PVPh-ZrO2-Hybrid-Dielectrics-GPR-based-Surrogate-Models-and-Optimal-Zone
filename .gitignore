@@ -1,18 +1,25 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Generated outputs (produced by scripts 01 and 02)
+capacitance_density_gpr_mean.csv
+capacitance_density_gpr_sigma.csv
+leakage_current_gpr_mean.csv
+leakage_current_gpr_sigma.csv
 
-# Other files and folders
-.settings/
+# Generated figures
+*.png
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
